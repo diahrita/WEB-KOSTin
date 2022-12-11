@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Backend\UserController;
+use App\Http\Controllers\Backend\PemilikController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -32,4 +34,13 @@ Route::get('/redirect', [HomeController::class, 'redirect']);
 //ROUTE USER
 Route::prefix('users')->group(function () {
     Route::get('/view', [UserController::class, 'UserView'])->name('user.view');
+});
+
+Route::prefix('pemiliks')->group(function () {
+    Route::get('/view', [PemilikController::class, 'PemilikView'])->name('pemilik.view');
+    Route::get('/add', [PemilikController::class, 'PemilikAdd'])->name('pemilik.add');
+    Route::post('/baru', [PemilikController::class, 'PemilikBaru'])->name('pemilik.baru');
+    Route::get('/edit/{id}', [PemilikController::class, 'PemilikEdit'])->name('pemilik.edit');
+    Route::post('/update/{id}', [PemilikController::class, 'PemilikUpdate'])->name('pemilik.update');
+    Route::get('/delete/{id}', [PemilikController::class, 'PemilikDelete'])->name('pemilik.delete');
 });

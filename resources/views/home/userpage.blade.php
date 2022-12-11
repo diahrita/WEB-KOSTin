@@ -4,7 +4,7 @@
 		<!-- Required meta tags --> 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Marshmallow Bootstrap Admin Dashboard Template</title>
+		<title>KOSTin</title>
 		<link rel="stylesheet" href="{{asset('home/vendors/mdi/css/materialdesignicons.min.css')}}">
 		<link rel="stylesheet" href="{{asset('home/vendors/owl.carousel/css/owl.carousel.css')}}">
 		<link rel="stylesheet" href="{{asset('home/vendors/owl.carousel/css/owl.theme.default.min.css')}}">

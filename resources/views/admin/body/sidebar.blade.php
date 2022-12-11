@@ -2,7 +2,7 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <ul class="nav">
     <li class="nav-item">
-      <a class="nav-link" href="index.html">
+      <a class="nav-link" href="#">
         <i class="icon-grid menu-icon"></i>
         <span class="menu-title">Dashboard</span>
       </a>
@@ -15,7 +15,7 @@
       </a>
       <div class="collapse" id="ui-basic">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="#">Pemilik Kost</a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{route('pemilik.view')}}">Pemilik Kost</a></li>
           <li class="nav-item"> <a class="nav-link" href="{{route('user.view')}}">User Pengguna</a></li>
         </ul>
       </div>
@@ -28,8 +28,8 @@
       </a>
       <div class="collapse" id="form-elements">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Data Kost</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Data Booking</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Data Kost</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Data Booking</a></li>
         </ul>
       </div>
     </li>
@@ -41,7 +41,7 @@
       </a>
       <div class="collapse" id="tables">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Basic table</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#">Basic table</a></li>
         </ul>
       </div>
     </li>
@@ -53,8 +53,8 @@
       </a>
       <div class="collapse" id="auth">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-          <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+          <li class="nav-item"> <a class="nav-link" href="#"> Login </a></li>
+          <li class="nav-item"> <a class="nav-link" href="#"> Register </a></li>
         </ul>
       </div>
     </li>

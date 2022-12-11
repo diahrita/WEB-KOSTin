@@ -3,6 +3,9 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\Auth\AuthController;
+use App\Http\Controllers\API\Auth\PemilikAPIController;
+use App\Models\Pemilik;
+
 // use App\Http\Controllers\API\AuthController;
 
 /*
@@ -22,3 +25,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
+
+Route::prefix('pemilik')->group(function () {
+    Route::get('/view', [PemilikAPIController::class, 'PemilikView']);
+    Route::post('/add', [PemilikAPIController::class, 'PemilikAdd']);
+    Route::put('/update', [PemilikAPIController::class, 'PemilikUpdate']);
+});
