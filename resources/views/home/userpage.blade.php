@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="{{asset('home/vendors/aos/css/aos.css')}}">
 		<link rel="stylesheet" href="{{asset('home/vendors/jquery-flipster/css/jquery.flipster.css')}}">
 		<link rel="stylesheet" href="{{asset('home/css/style.css')}}">
-		<link rel="shortcut icon" href="{{asset('home/images/favicon.png')}}" />
+		<link rel="shortcut icon" href="{{asset('home/images/home3.png')}}" />
 	</head>
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 		<div id="mobile-menu-overlay"></div>

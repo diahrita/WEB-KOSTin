@@ -29,5 +29,6 @@ Route::post('login', [AuthController::class, 'login']);
 Route::prefix('pemilik')->group(function () {
     Route::get('/view', [PemilikAPIController::class, 'PemilikView']);
     Route::post('/add', [PemilikAPIController::class, 'PemilikAdd']);
-    Route::put('/update', [PemilikAPIController::class, 'PemilikUpdate']);
+    Route::put('/update/{id}', [PemilikAPIController::class, 'PemilikUpdate']);
+    Route::delete('/delete/{id}', [PemilikAPIController::class, 'PemilikDelete']);
 });
