@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h5 class="text-dark">We’re offering</h5>
-        <h3 class="font-weight-medium text-dark mb-5">Creative Digital Agency</h3>
+        <h5 class="text-dark">KOSTin</h5>
+        <h3 class="font-weight-medium text-dark mb-5">Recomendation!</h3>
       </div>
     </div>
     <div class="row" data-aos="fade-up">

@@ -8,6 +8,10 @@ use App\Models\Pemilik;
 
 class PemilikController extends Controller
 {
+    public function AdminDashboard()
+    {
+        return view('admin.body.dashboard_admin');
+    }
     public function PemilikView()
     {
         // $allDataUser=User::all();

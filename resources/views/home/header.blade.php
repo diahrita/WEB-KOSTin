@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#"><img src="{{asset('home/images/logo3.png')}}" alt="Marshmallow"></a>
+    <a class="navbar-brand" href="{{url('/')}}"><img src="{{asset('home/images/logo3.png')}}" alt="Marshmallow"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
     </button>
@@ -11,13 +11,13 @@
       </div>
       <ul class="navbar-nav ml-auto align-items-center">
         <li class="nav-item active">
-          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#services">Download App</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">Bantuan</a>
+          <a class="nav-link" href="{{url('view_cart')}}">Cart</a>
         </li>
 
         @if (Route::has('login'))

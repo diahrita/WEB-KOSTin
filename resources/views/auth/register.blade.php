@@ -19,7 +19,7 @@
 					<div class="wrap d-md-flex">
 						<div class="text-wrap p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
 							<div class="text w-100">
-								<h2>Welcome to register</h2>
+								<h2>Welcome to sign up</h2>
 								<p>Already have an account?</p>
 								<a href="{{route('login')}}" class="btn btn-white btn-outline-white">Log In</a>
 							</div>
@@ -46,6 +46,13 @@
                             <label for="email" class="form-label">Email</label>
                             <input type="text" class="form-control" id="email" name="email">
                         </div>
+												<div class="mb-3">
+													<label for="usertype" class="form-label">Usertype</label>
+													<select type="text" class="form-control" id="usertype" name="usertype">
+														<option>Pencari Kost</option>
+														<option>Pemilik Kost</option>
+													</select>
+												</div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" id="password" name="password">
